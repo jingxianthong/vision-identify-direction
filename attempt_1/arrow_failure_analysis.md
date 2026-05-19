@@ -1,5 +1,9 @@
 # 🧭 Raspbot Arrow Navigation: System Analysis & Edge Case Failure
 
+## System Showcase
+[![Raspbot System Showcase](https://img.youtube.com/vi/zwyWs2UIMFQ/0.jpg)](https://youtu.be/zwyWs2UIMFQ)
+*(Click the image above to watch the video demonstration)*
+
 ## 1. Expected System Behavior
 The Arrow Navigation system is designed to act as an autonomous visual-motor pipeline. Under optimal conditions, the expected workflow is:
 1. **Visual Input:** The Raspberry Pi camera captures a live video frame.
@@ -9,6 +13,12 @@ The Arrow Navigation system is designed to act as an autonomous visual-motor pip
 
 ## 2. The Problem Faced (Edge Case)
 Despite the AI model being trained on a custom dataset of over 100 images of left and right arrows, a critical failure occurred during live testing. 
+
+### Visual Examples of the Failure State
+
+| Left Arrow Edge Case | Right Arrow Edge Case |
+| :---: | :---: |
+| <img width="640" height="480" alt="arrow_0" src="https://github.com/user-attachments/assets/7629038b-2452-45dc-84c2-4c2808d5558f" /> | <img width="640" height="480" alt="arrow_2" src="https://github.com/user-attachments/assets/980275ed-ce3d-4b9c-a52a-1eedaf84ce36" /> |
 
 When presented with a hand-drawn arrow on a blank white sheet of paper, the system registered **zero detections**. The camera functioned perfectly, and the environment was well-lit, yet the AI was completely blind to the drawing. The specific drawing used for this test was a large arrow outlined in blue pen, with the interior "colored in" using diagonal sketch lines (hatching), leaving significant white space visible inside the lines of the arrow.
 
