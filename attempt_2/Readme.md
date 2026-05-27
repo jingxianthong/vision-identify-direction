@@ -7,7 +7,7 @@ This document outlines the setup and operational logic of the custom Autonomous 
 ## 🎥 Video Demonstration
 
 **Watch the Raspbot AEB system in action here:**
-[Insert YouTube Link Here]
+[![Raspbot AEB Video Demonstration](https://img.youtube.com/vi/tA3hCkpsFbQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=tA3hCkpsFbQ)
 
 ---
 
