@@ -2,7 +2,7 @@
 
 ## 1. Physical Execution: The Robot in Action
 
-The video below showcases the robot physically navigating its path, utilizing its hardware and motor controllers to execute movement autonomously. 
+show case of hardware operational
 
 <div align="center">
   <a href="https://youtu.be/8lQjliSKyk4" target="_blank">
