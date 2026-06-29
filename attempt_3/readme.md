@@ -18,14 +18,9 @@ The video below showcases the robot physically navigating its path, utilizing it
 
 While navigating, the onboard processing system actively identifies and tracks objects in its path. The video below captures the real-time inference feed (powered by tools like OpenCV and YOLO), highlighting the bounding boxes and object classifications.
 
-<div align="center">
-  <video width="640" controls>
-    <source src="https://github.com/user-attachments/assets/a2365c94-8fe6-40d6-afd2-ac0e78ab024d" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <br>
-  <em>Video feed: Real-time object detection and tracking.</em>
-</div>
+https://github.com/user-attachments/assets/a2365c94-8fe6-40d6-afd2-ac0e78ab024d
+
+*Video feed: Real-time object detection and tracking.*
 
 ---
 
