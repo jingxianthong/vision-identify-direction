@@ -85,8 +85,8 @@ try:
         if frame_count == 5:
             print("Processing first AI frame... (Please wait!)")
         
-        # --- ONLY RUN AI EVERY 5 FRAMES ---
-        if frame_count % 5 == 0:
+        # --- ONLY RUN AI EVERY 3 FRAMES ---
+        if frame_count % 3 == 0:
             target_found = False
             action_msg = "PATH CLEAR"
             current_speed = 15 # Reset to normal speed before frame re-evaluation
