@@ -16,17 +16,12 @@ The video below showcases the robot physically navigating its path, utilizing it
 
 ## 2. Machine Vision: What the Robot Sees
 
-While navigating, the onboard processing system actively identifies and tracks objects in its path. The video below captures the real-time inference feed (powered by tools like OpenCV and YOLO), highlighting the bounding boxes and object classifications.
+here is what the robot will see.
 
 https://github.com/user-attachments/assets/a2365c94-8fe6-40d6-afd2-ac0e78ab024d
 
 *Video feed: Real-time object detection and tracking.*
 
----
 
-### Project Milestones
-* **Hardware:** Raspberry Pi 5 
-* **Core Technologies:** OpenCV, YOLO Object Detection
-* **Target Final Completion:** August 2026
 
 like this?
